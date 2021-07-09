@@ -1,0 +1,134 @@
+a{
+    text-decoration: none;
+}
+h1 {
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+h1:before,
+h1:after {
+    background-color: gray;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 120px;
+}
+
+h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.container-fluid{
+    margin-bottom: 50px;
+}
+.mainbanner{
+    margin-bottom: 30PX;
+    position: relative;
+}
+.mobframe{
+    position: absolute;
+    margin-bottom: 50px;
+}
+/* .mainbanner .col-xl-6 {
+    background-image: url(ia_100000026.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+} */
+.myCarousel{
+    position: absolute;
+}
+.item{
+    margin-top: 80px;
+    margin-right: 45px;
+}
+.line{
+    background-color: gray;
+    display: inline-block;
+    height: 1px;
+    width: 150px;
+
+}
+.logo{
+    width:300px;
+   margin: auto;
+}
+.col-6A img{
+    margin-top: 30px;
+    float: right;
+}
+.row1 .col-xl-6,.col-xl-4 {
+    text-align: center;
+}
+.signopt{
+    display: block;
+    margin: auto;
+    border: none;
+    padding:10px 50px 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+.signopt .bi{
+    margin-right: 30px;
+}
+.signopti{
+     display: block;
+     margin: auto;
+     border: none;
+     padding:10px 110px;
+     margin-bottom: 20px;
+     border-radius: 20px;
+     background-color: aquamarine;
+}
+
+ul li{
+    display:inline-block
+}
+
+input{
+    padding:5px 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border:1px solid gray;
+}
+
+.footer1st a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+    color: gray;
+
+}
+
+.footerrright1 a{
+    font-size: 14px;
+    color: gray;
+    margin-right: 10px;
+    text-align: center;
+
+}
+.wordl{
+    padding:0 5px;
+    color:gray;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mobileimg{
+        display: none;
+    }
+    .col-md-12{
+        text-align: center;
+
+    }
+}
